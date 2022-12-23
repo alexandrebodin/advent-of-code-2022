@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node16",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2022",
+    "module": "CommonJS"
+  },
+  "include": ["src/"],
+  "exclude": ["**/*.test.ts"]
+}
